@@ -114,7 +114,7 @@
 **В Польше** ТС оперативного назначения с включенным маячком будут обязательно подавать звуковой сигнал. Обеспечивать проезд должны водители попутного направления специальным образом под названием "Коридор жизни". 
 Правило такое: **те, кто двигается по крайней левой полосе сдвигаются как можно левее (без пересечения сплошной линии, разделяющей противоположные потоки). А все остальные полосы сдвигаются как можно правее.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PhBc1XJ3bhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/PhBc1XJ3bhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Отношения с трамваем
 
