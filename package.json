@@ -6,11 +6,13 @@
   "author": "A. Rizhenkov <a@rizhenkov.by>",
   "license": "CC-BY-4.0",
   "devDependencies": {
+    "sass": "^1.49.9",
     "vitepress": "^0.22.3"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
-  }
+  },
+  "dependencies": {}
 }
