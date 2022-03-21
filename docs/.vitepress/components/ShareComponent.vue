@@ -134,7 +134,7 @@
     border-radius: 0.25rem;
     background: #fafafa;
     font-size: 0.875rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 ol {
