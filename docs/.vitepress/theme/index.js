@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue'
 import ShareComponent from './../components/ShareComponent.vue'
-//import './custom.css'
+import './custom.css'
 
 export default {
     ...DefaultTheme,

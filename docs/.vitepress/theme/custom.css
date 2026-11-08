@@ -1,0 +1,54 @@
+/* Keep the refresh limited to the site header. */
+.nav-bar {
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom-color: #e3eaf0;
+  box-shadow: 0 3px 18px rgba(25, 48, 66, 0.05);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.nav-bar .nav-bar-title {
+  gap: 10px;
+  color: #183442;
+  font-size: 1.15rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+}
+
+.nav-bar .nav-bar-title .logo {
+  width: 34px;
+  height: 34px;
+  margin-right: 0;
+}
+
+.nav-bar .nav-bar-title:focus-visible,
+.nav-bar .nav-link a:focus-visible {
+  outline: 2px solid #087f8c;
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+@media (min-width: 720px) {
+  .nav-bar .nav-links {
+    gap: 8px;
+    padding: 0;
+  }
+
+  .nav-bar .nav-links > .item + .item {
+    padding-left: 0;
+  }
+
+  .nav-bar .nav-link a.item {
+    padding: 6px 14px;
+    border: 0;
+    border-radius: 8px;
+    color: #435b68;
+    transition: background-color 150ms, color 150ms;
+  }
+
+  .nav-bar .nav-link a.item:hover,
+  .nav-bar .nav-link a.item.active {
+    background: #eaf5f5;
+    color: #086d78;
+  }
+}
