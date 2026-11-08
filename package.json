@@ -5,6 +5,7 @@
   "repository": "git@github.com:rizhenkov/pdd-diff-by-pl.git",
   "author": "A. Rizhenkov <a@rizhenkov.by>",
   "license": "CC-BY-4.0",
+  "packageManager": "yarn@1.22.22",
   "devDependencies": {
     "sass": "^1.49.9",
     "vitepress": "^0.22.3"
