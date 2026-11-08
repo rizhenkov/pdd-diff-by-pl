@@ -5,8 +5,7 @@ module.exports = {
     themeConfig: {
         logo: '/images/road-logo.svg',
         nav: [
-            { text: 'Сравнение ПДД', link: '/' },
-            { text: 'Об авторе', link: '/#от-автора' }
+            { text: 'Сравнение ПДД', link: '/' }
         ]
     }
 }
