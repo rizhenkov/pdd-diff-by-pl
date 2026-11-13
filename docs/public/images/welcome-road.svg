@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300" fill="none">
+  <rect x="25" y="20" width="310" height="260" rx="130" fill="#DBEFEC"/>
+  <circle cx="281" cy="65" r="24" fill="#F5D68C"/>
+  <path d="M48 229C48 176 214 219 214 160S111 131 111 77" stroke="#BCD9D4" stroke-width="66"/>
+  <path d="M48 229C48 176 214 219 214 160S111 131 111 77" stroke="#254D59" stroke-width="48"/>
+  <path d="M48 229C48 176 214 219 214 160S111 131 111 77" stroke="#F3F6EF" stroke-width="2" stroke-dasharray="10 10"/>
+  <path d="M271 130V224" stroke="#547B7D" stroke-width="7" stroke-linecap="round"/>
+  <rect x="253" y="77" width="36" height="80" rx="12" fill="#173E49"/>
+  <circle cx="271" cy="94" r="8" fill="#526C70"/>
+  <circle cx="271" cy="117" r="8" fill="#526C70"/>
+  <circle cx="271" cy="140" r="8" fill="#7DE0B2"/>
+  <path d="M70 105V164" stroke="#547B7D" stroke-width="5"/>
+  <path d="M46 78H94L70 119L46 78Z" fill="#FFF8E7" stroke="#D49B46" stroke-width="5" stroke-linejoin="round"/>
+  <g transform="translate(149 172) rotate(-12)">
+    <rect x="0" y="6" width="11" height="16" rx="4" fill="#173E49"/>
+    <rect x="43" y="6" width="11" height="16" rx="4" fill="#173E49"/>
+    <rect x="0" y="44" width="11" height="16" rx="4" fill="#173E49"/>
+    <rect x="43" y="44" width="11" height="16" rx="4" fill="#173E49"/>
+    <rect x="6" width="42" height="67" rx="13" fill="#FAFCF7"/>
+    <path d="M13 18L41 18L38 30H16L13 18Z" fill="#608D96"/>
+    <rect x="15" y="44" width="24" height="9" rx="3" fill="#608D96"/>
+    <path d="M12 8H19M35 8H42" stroke="#F5D68C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <rect x="37" y="36" width="62" height="29" rx="9" fill="#fff"/>
+  <text x="68" y="56" text-anchor="middle" fill="#254D59" font-family="Arial,sans-serif" font-size="14" font-weight="700">BY</text>
+  <rect x="259" y="239" width="62" height="29" rx="9" fill="#fff"/>
+  <text x="290" y="259" text-anchor="middle" fill="#254D59" font-family="Arial,sans-serif" font-size="14" font-weight="700">PL</text>
+  <path d="M305 188V211M294 200H316M39 137V151M32 144H46" stroke="#7CA9A1" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,4 +1,4 @@
-/* Keep the refresh limited to the site header. */
+/* Site header. */
 .nav-bar {
   background: rgba(255, 255, 255, 0.94);
   border-bottom-color: #e3eaf0;
@@ -51,4 +51,79 @@
     background: #eaf5f5;
     color: #086d78;
   }
+}
+
+/* A quiet, consistent reading surface for the driving guide. */
+:root {
+  --c-brand: #087f82;
+  --c-brand-light: #09696c;
+  --c-text: #263e49;
+  --c-text-light: #526873;
+  --c-divider: #dfe8e9;
+  --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body { background: #fbfcfc; }
+.content p, .content li { line-height: 1.85; }
+.content h1 { color: #173e49; letter-spacing: -0.035em; }
+.content h2 {
+  margin-top: 3rem;
+  padding-top: 1.6rem;
+  color: #173e49;
+  letter-spacing: -0.025em;
+}
+.content h3 { color: #254d59; }
+.content img { border-radius: 8px; }
+.content table { border-radius: 8px; }
+.content a:focus-visible { outline: 2px solid #087f82; outline-offset: 4px; }
+.sidebar { background: #f4f8f8; border-right: 1px solid #e3eaea; }
+.sidebar .sidebar-link { line-height: 1.5; }
+
+.welcome {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  align-items: center;
+  gap: 16px;
+  padding: 36px 28px;
+  border: 1px solid #dceae7;
+  border-radius: 20px;
+  background: #eef6f3;
+}
+.welcome-eyebrow {
+  color: #476e6a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+.content .welcome h1 {
+  margin: 14px 0 18px;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.18;
+  border: 0;
+}
+.content .welcome p { margin: 0 0 24px; color: #4b666c; font-size: 15px; line-height: 1.7; }
+.content .welcome-link {
+  display: inline-flex;
+  gap: 18px;
+  align-items: center;
+  padding: 11px 17px;
+  border-radius: 8px;
+  background: #176b69;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 150ms;
+}
+.content .welcome-link:hover { background: #104f50; }
+.content .welcome-art { width: 100%; height: auto; margin: 0; }
+.content .edition { margin: 18px 0 30px; color: #667b81; font-size: 12px; }
+.edition span { padding: 0 8px; }
+
+@media (max-width: 959px) {
+  .welcome { grid-template-columns: 1fr; padding: 28px 22px 16px; gap: 12px; }
+  .content .welcome-art { max-width: 260px; justify-self: center; }
+  .content .welcome h1 { font-size: 30px; }
+  .content .edition { font-size: 11px; }
 }

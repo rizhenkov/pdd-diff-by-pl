@@ -1,6 +1,14 @@
-# Отличия в ПДД. Беларусь → Польша
+<section class="welcome">
+  <div class="welcome-copy">
+    <span class="welcome-eyebrow">ПАМЯТКА ВОДИТЕЛЮ</span>
+    <h1>Отличия в ПДД.<br>Беларусь → Польша</h1>
+    <p>Знакомые дороги, другие правила. Разберитесь в отличиях, чтобы увереннее чувствовать себя за рулём.</p>
+    <a class="welcome-link" href="#светофоры-и-проезд-перекрёстков">Начать с перекрёстков <span aria-hidden="true">↗</span></a>
+  </div>
+  <img class="welcome-art" src="/images/welcome-road.svg" width="360" height="300" alt="Дорога из Беларуси в Польшу: автомобиль, дорожный знак и зелёный светофор">
+</section>
 
-`(редакция от 15 марта 2022)`
+<p class="edition">Сравнение правил двух стран <span aria-hidden="true">·</span> Редакция от 15 марта 2022</p>
 
 ## От автора
 
@@ -278,4 +286,5 @@
 
 ### Изменения и дополнения
 
-Если вам есть что дополнить - создавайте [Issue](https://github.com/rizhenkov/pdd-diff-by-pl/issues/new) или [pull-request](https://github.com/rizhenkov/pdd-diff-by-pl). Сделаем этот материал лучше!  
+Если вам есть что дополнить - создавайте [Issue](https://github.com/rizhenkov/pdd-diff-by-pl/issues/new) или [pull-request](https://github.com/rizhenkov/pdd-diff-by-pl).  
+Сделаем этот материал лучше!  
